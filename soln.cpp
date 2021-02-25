@@ -1,4 +1,4 @@
-/*.........It's not fake i really cry for your happiness but i know it doesn't matter for u............*/
+/*......... your happiness is my motivation ............*/
 //Coded by Aman Bharti (ECE 2k18) Nit Patna
 #pragma GCC optimize("Ofast", "unroll-loops", "no-stack-protector")
 #include<bits/stdc++.h>
@@ -117,13 +117,11 @@ int32_t main()
             if(st1.find(ans)!=st1.end())continue;
             st1.insert(ans);
             for(int k=j;k<res[i].size();k++){
-                
                 if(res[i][k].second==res[i][j].second){cnt++;}
                 else {j=k-1;break;}
                 if(k==res[i].size()-1){j=k;}
             }
             sol2.push_back({ans,cnt});
-            //cout<<j<<" "<<ans<<" "<<cnt<<endl;
         }
 
         cout<<st1.size()<<endl;

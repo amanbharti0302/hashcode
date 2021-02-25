@@ -1,4 +1,4 @@
-/*......... your happiness is my motivation ............*/
+/*......... my motivation ............*/
 //Coded by Aman Bharti (ECE 2k18) Nit Patna
 #pragma GCC optimize("Ofast", "unroll-loops", "no-stack-protector")
 #include<bits/stdc++.h>
